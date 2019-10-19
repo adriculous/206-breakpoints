@@ -1,0 +1,19 @@
+/*** RWD NOTES
+Widths that are exact pixel size or less - max-width
+Widths that are exact pixel size or higher - min-width
+***/
+
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+	body {
+    background: red;
+  }
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+  body {
+    background: blue;
+  }
+}
